@@ -1,1 +1,8 @@
-#!/bin/bashprintf("\nBuilding file myCopier.cpp into myCopier\n\n")g++ -std=c++11 myCopier.cpp -o -lpthread  myCopier
+#!/bin/bash
+
+echo "\nBuilding file myCopier.cpp into myCopier\n\n"
+
+g++ myCopier.cpp -o myCopier
+
+echo "\nFinished compiling\n\n"
+
